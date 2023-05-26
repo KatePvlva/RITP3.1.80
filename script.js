@@ -9,7 +9,7 @@ if ($checkbox.length) {
     var searchParams = new URLSearchParams(window.location.search);
     searchParams.set('show_completed', is_checked);
 
-    window.location = '/doingsdone2023/index.php?' + searchParams.toString();
+    window.location = 'index.php?' + searchParams.toString();
   });
 }
 
@@ -17,7 +17,7 @@ function changeTask(value)
 {
   var searchParams = new URLSearchParams(window.location.search);
   searchParams.set('task_completed', value);
-  window.location = '/doingsdone2023/index.php?' + searchParams.toString();
+  window.location = 'index.php?' + searchParams.toString();
 }
 
 flatpickr('#date', {

@@ -5,7 +5,7 @@ $show_complete_tasks = rand(0, 1);
 
 <?php
 require_once 'php/util.php';
-require_once 'php/notify.php';
+//require_once 'php/notify.php';
 session_start();
 /**
  * функция, проверяющая, осталось ли до выполнения задачи менее суток
